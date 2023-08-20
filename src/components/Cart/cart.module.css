@@ -1,0 +1,88 @@
+.cartContainer {
+  margin: 4rem 0;
+}
+.header {
+  font-size: 3rem;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerLink:link,
+.headerLink:visited {
+  font-size: 1.8rem;
+  color: #000;
+}
+.headerLink:hover,
+.headerLink:active {
+  color: #000;
+  text-decoration: none;
+}
+.table{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    margin-top: 5rem;
+}
+.table p {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    opacity: .5;
+}
+.line{
+    margin: 2rem 0;
+    opacity: .6;
+}
+.img{
+    width: 150px;
+    border-radius: 8px;
+    /* height: 200px; */
+}
+.imageContainer{
+    display: flex;
+    gap: 2rem;
+}
+.imageContainer h2{
+    font-size: 2rem;
+}
+.imageContainer p{
+    font-size: 1.8rem;
+    opacity: .6;
+    margin-top: 8px;
+}
+.cart {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    align-items: center;
+}
+.price{
+    font-size: 1.6rem;
+}
+.cartSubContainer{
+    position: relative;
+}
+.deleteIcon{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    width: 20px;
+    height: 20px;
+}
+.totals{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 2rem;
+}
+.totals p{
+    font-size: 2rem;
+}
+.checkoutBtn{
+    padding: 6px 10rem;
+    border: none;
+    background-color: var(--secondary-100);
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+}

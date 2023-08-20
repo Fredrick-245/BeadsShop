@@ -1,0 +1,63 @@
+.container{
+    margin:4rem 0;
+}
+.header{
+    font-size: 3rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: .4rem;
+}
+.subContainer{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 2fr .2fr 2fr;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input label{
+    font-size: 1.4rem;
+}
+.input input{
+    padding: 6px 4px;
+    outline: none;
+    border-radius: 6px;
+}
+.input input::-webkit-inner-spin-button,
+.input input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.separate{
+    width: .2px;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+
+}
+.prompt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.prompt button{
+    padding: 10px 20px;
+    background-color: var(--secondary-100);
+    border: none;
+    border-radius: 3px;
+
+}
+.credit{
+    margin-top: 4rem;
+}
+.credit h2{
+    font-size: 1.6rem;
+}
+.promptContainer{
+    margin-top: 2rem;
+}

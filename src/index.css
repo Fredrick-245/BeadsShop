@@ -1,13 +1,68 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --font-section-header-familly:"Quattrocento";
+  --primary-color-500:#0f0c13;
+  --primary-color-400:#2c253a;
+  --primary-color-300:#4a3f61;
+  --primary-color-200:#76649b;
+  --primary-color-100:#937dc2;
+  --primary-color-50:#b3a4d4;
+  --primary-color-10:#f4f2f9;
+  --secondary-300:#281b28;
+  --secondary-200:#8b608b;
+  --secondary-100:#b27bb2;
+  --secondary-50:#cc95cc;
+  --tertiary-300:#b3789e;
+  --tertiary-200:#ffabe1;
+  --tertiary-100:#ffbce7;
+  --color-300:#a7ffe4;
+  --color-200:#b0ffe7;
+  --color-100:#c1ffec;
+}
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .no-spin-btn::-webkit-inner-spin-button,
+    .no-spin-btn::-webkit-outer-spin-button{
+      -webkit-appearance:none
+    }
+  }
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  font-size: 62.5%;
+  font-family: Bricolage Grotesque;
+}
+.center {
+  padding: 40px 50px;
+}
+section{
+  /* margin-top: 4rem; */
+  margin-bottom: 9.6rem;
+}
+body{
+  overflow-x: hidden;
+  background-color:var(--primary-color-10) ;
+}
+body::-webkit-scrollbar{
+  display: none;
 }

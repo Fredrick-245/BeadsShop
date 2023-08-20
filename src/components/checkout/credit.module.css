@@ -1,0 +1,26 @@
+.form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap:1rem
+}
+.form input {
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.form input::-webkit-inner-spin-button,
+.form input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.valid {
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    gap:1rem;
+}
+.cardContainer{
+    display: flex;
+    margin-top: 3rem;
+    /* flex-direction: column; */
+    gap: 20px;
+}
