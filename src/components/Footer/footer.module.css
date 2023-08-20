@@ -1,0 +1,39 @@
+.footer{
+    background-color: var(--primary-color-400);
+    padding-top: 9.6rem;
+    padding-bottom: 4rem;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* width: 100%; */
+    /* bottom: 0; */
+}
+.footerLinks{
+    display: flex;
+    justify-content: center;
+}
+.footerLink{
+    color: #fff;
+}
+.footerIcon{
+    width: 30px;
+    height: 30px;
+}
+.footerDescription{
+    color: #fff;
+    font-size: 1.8rem;
+    opacity: .8rem;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.footerDescription a{
+    color: #fff;
+}
+.copyRights{
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.copyRights a{
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+.loader{
+    width: 100px;
+    height: 100px;
+    /* background:red; */
+    border-top:solid 10px #bbb;
+    border-right: solid 10px #bbb;
+    border-bottom:solid 10px #fff ;
+    border-left:solid 10px #fff ;
+    /* border:; */
+    /* border-radius: 50%; */
+    border-width: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    animation: rotate 2s ease;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
